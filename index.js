@@ -5,10 +5,10 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyPrependKitten(name){
-  kitten.prepend(name)
+  kittens.unshift(name)
 }
 
 function destructivelyRemoveLastKitten() {
-  kitten.pop()
+  kittens.pop()
 }
 
