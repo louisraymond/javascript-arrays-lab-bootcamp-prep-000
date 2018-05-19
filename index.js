@@ -17,4 +17,6 @@ function destructivelyRemoveLastKitten() {
    
  }
    
-  
+ function destructivelyremovefirstkitten(){
+   
+ } 
