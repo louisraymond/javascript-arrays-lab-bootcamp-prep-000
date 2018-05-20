@@ -35,6 +35,6 @@ function removeLastKitten(){
  
  function removeFirstKitten(){
    var newk=[...kittens]
-   newk.unshift()
+   newk.shift()
    return newk;
  }
