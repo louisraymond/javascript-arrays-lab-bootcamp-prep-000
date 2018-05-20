@@ -21,3 +21,5 @@ function destructivelyRemoveLastKitten() {
 kittens.shift();
 return kittens
  } 
+ 
+ function prependKitten
