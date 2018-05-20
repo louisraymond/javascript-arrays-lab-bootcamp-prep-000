@@ -28,6 +28,7 @@ return kittens
  }
 
 function removeLastKitten(){
-  return kittens.splice()
-}
+  var newKittens = [...kittens]
+ newKittens.pop()
+  return newKittens
  }
