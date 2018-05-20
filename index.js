@@ -22,4 +22,6 @@ kittens.shift();
 return kittens
  } 
  
- function prependKitten
+ function prependKitten (name){
+   return [name,...kittens]
+ }
